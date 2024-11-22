@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LPU Food Courts</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Famous Food Courts at LPU</h1>
+
+    <!-- Cafe 1 -->
+    <div class="wide-card">
+      <div class="wide-card-content normal-direction">
+        <img src="/food.png" alt="Cafe 1 Banner" class="wide-card-image">
+        <div class="wide-card-overlay">
+          <h2 class="wide-card-title">CENTRAL MESS</h2>
+          <p class="wide-card-subtitle">Location: Central Block</p>
+          <p class="wide-card-description">Central mess is known for its delicious South Indian dishes. A perfect spot for students to grab a quick meal between classes!</p>
+          <a href="https://www.google.com/maps/dir/31.2447528,75.7022453/central+mess+lpu/@31.2484349,75.6948366,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x391a5f689c7372ad:0x73b33263a1eb6442!2m2!1d75.7008121!2d31.2521172?entry=ttu&g_ep=EgoyMDI0MTEwNi4wIKXMDSoAS" target="_blank" class="button">Go to Directions</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Food Point 2  -->
+    <div class="wide-card">
+      <div class="wide-card-content column-reverse">
+        <img src="food factory.jpg" alt="Food Point 2 Banner" class="wide-card-image">
+        <div class="wide-card-overlay">
+          <h2 class="wide-card-title">FOOD FACTORY</h2>
+          <p class="wide-card-subtitle">Location: Near Hostel Block</p>
+          <p class="wide-card-description">Food factory specializes in fast food and snacks, making it a popular hangout for students near the hostel blocks.</p>
+          <a href="https://www.google.com/maps/dir/31.2447528,75.7022453/food+factory+lpu/@31.2463187,75.6974115,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x391a5f5d8d9515f7:0xf78239b1afe9b4db!2m2!1d75.698617!2d31.2478628?entry=ttu&g_ep=EgoyMDI0MTEwNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="button">Go to Directions</a>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- Food Court 3 -->
+    <div class="wide-card">
+      <div class="wide-card-content normal-direction">
+        <img src="kitchen ette.jpg" alt="Food Court 3 Banner" class="wide-card-image">
+        <div class="wide-card-overlay">
+          <h2 class="wide-card-title">KITCHEN ETTE</h2>
+          <p class="wide-card-subtitle">Location: Engineering Block</p>
+          <p class="wide-card-description">Offering a range of cuisines, Kitchen ette is the go-to place for engineering students seeking variety and quality food.</p>
+          <a href="https://www.google.com/maps/dir/31.2447528,75.7022453/Kitchen+Ette+BH+1+Cafe,+Lovely+Professional+University+BH1,+Phagwara,+Punjab/@31.2481653,75.6978267,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x391a5f0cf2063f7d:0xe5148b78b26b5c70!2m2!1d75.6996123!2d31.2515562?entry=ttu&g_ep=EgoyMDI0MTEwNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="button">Go to Directions</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Food Court 4 -->
+    <div class="wide-card">
+      <div class="wide-card-content column-reverse">
+        <img src="nk food court .jpg" alt="Food Court 4 Banner" class="wide-card-image">
+        <div class="wide-card-overlay">
+          <h2 class="wide-card-title">NK FOOD COURT</h2>
+          <p class="wide-card-subtitle">Location: Law Block</p>
+          <p class="wide-card-description">Known for its healthy salads and sandwiches, Nk food court is a great option for those looking for a quick and nutritious meal.</p>
+          <a href="https://www.google.com/maps/dir/31.2447528,75.7022453/N.K+Food+Court,+Punjab/@31.2460935,75.7009051,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x391a5f65050362a9:0x858ab2acf99c10b2!2m2!1d75.7046446!2d31.2470087?entry=ttu&g_ep=EgoyMDI0MTEwNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="button">Go to Directions</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
+    .wide-card {
+      margin-top: 40px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .wide-card-content {
+      display: flex;
+      flex-direction: row;
+      height: 400px;
+    }
+
+    .wide-card-content.column-reverse {
+      flex-direction: row-reverse;
+    }
+
+    .wide-card-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .wide-card-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+      color: #fff;
+    }
+
+    .wide-card-title {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .wide-card-subtitle {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .wide-card-description {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      padding: 12px 24px;
+      background-color: #1b1c1d;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .button:hover {
+      background-color: #5f6163;
+    }
+
+    @media (max-width: 768px) {
+      .wide-card-content {
+        flex-direction: column;
+        height: auto;
+      }
+
+      .wide-card-content.column-reverse {
+        flex-direction: column;
+      }
+
+      .wide-card-image {
+        width: 100%;
+        height: 200px;
+      }
+
+      .wide-card-overlay {
+        position: relative;
+        padding: 10px;
+      }
+    }
+  </style>
+
+</body>
+
+</html>
